@@ -35,17 +35,7 @@ class Circle(Shape):
     - float: The area of the circle.
     
     """
-    def area(self):
-        """
-        Calculate and return the area of the circle.
-        
-        Formula:
-        - Area = π * r^2 (where r is the radius)
-        
-        Returns:
-        - float: The area of the circle.
-        """
-        return math.pi * self.radius ** 2
+    # Write your code here
 
 class Rectangle(Shape):
     def __init__(self, width, height):
@@ -62,15 +52,4 @@ class Rectangle(Shape):
     Returns:
     - float: The area of the rectangle.
     """
-    
-    def area(self):
-        """
-        Calculate and return the area of the rectangle.
-        
-        Formula:
-        - Area = width * height
-        
-        Returns:
-        - float: The area of the rectangle.
-        """
-        return self.width * self.height
+    # Write you code here
