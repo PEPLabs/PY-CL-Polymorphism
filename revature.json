@@ -1,0 +1,30 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_circle_area_override",
+          "label": "Verify Circle inherits from Shape and overrides area()",
+          "description": "Checks that a Circle instance is a subclass of Shape and has an overridden area() method."
+        },
+        {
+          "methodName": "test_circle_area_calculation",
+          "label": "Verify Circle area calculation is correct",
+          "description": "Ensures that Circle.area() returns approximately 78.54 when the radius is 5."
+        },
+        {
+          "methodName": "test_rectangle_area_override",
+          "label": "Verify Rectangle inherits from Shape and overrides area()",
+          "description": "Checks that a Rectangle instance is a subclass of Shape and overrides the area() method."
+        },
+        {
+          "methodName": "test_rectangle_area_calculation",
+          "label": "Verify Rectangle area calculation is correct",
+          "description": "Ensures that Rectangle.area() returns 24 for a rectangle with width 4 and height 6."
+        }
+      ]
+    }
+  ]
+}
